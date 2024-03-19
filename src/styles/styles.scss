@@ -1,0 +1,37 @@
+:root {
+  //border
+  --border-rounded: 0.5rem;
+  --border-circle: 1000rem;
+
+  //colors
+  --color-white: #fff;
+  --color-black: #222;
+
+  --color-purple-400: #8e44ad;
+  --color-purple-300: #9b59b6;
+
+  --color-yellow-400: #f1c40f;
+  --color-yellow-500: #f39c12;
+
+  --color-gray-100: #ecf0f1;
+  --color-gray-200: #bdc3c7;
+  --color-gray-300: #95a5a6;
+  --color-gray-400: #7f8c8d;
+  --color-gray-600: #34495e;
+  --color-gray-700: #2c3e50;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+//imports
+@import "./components/layout.scss";
+@import "./components/grid.scss";
+@import "./components/header.scss";
+@import "./components/nav.scss";
