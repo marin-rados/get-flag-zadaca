@@ -24,7 +24,7 @@ const Contact = () => {
   };
 
   useEffect(() => {
-    getCountryFlag("");
+    getCountryFlag("Croatia");
   }, []);
 
   return (
